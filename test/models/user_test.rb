@@ -38,7 +38,8 @@ class UserTest < ActiveSupport::TestCase
     valid_addresses.each do |valid_address|
       @user.email = valid_address
       assert @user.valid?, "#{valid_address.inspect} should be valid"
-      # 第二引数はエラーメッセージ。これによってどのアドレスでテストが失敗したのか特定できるようになる。
+      # 第二引数はエラーメッセージ。これによってどのアドレスでテストが失敗したのか
+      # 特定できるようになる。
     end
   end
 
