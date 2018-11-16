@@ -40,3 +40,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bcrypt',         '3.1.12'
 # パスワードをハッシュ化するためのGem
+gem "rack", ">= 2.0.6"
+gem "loofah", ">= 2.2.3"
